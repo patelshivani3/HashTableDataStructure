@@ -30,7 +30,11 @@ namespace HashTableDataStructure
             }
             Console.WriteLine("Displaying after add operation");
             hashTabe.Display();
-            
+            string s = "avoidable";
+            hashTabe.Remove(s);
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("After removed an item {0}", s);
+            hashTabe.Display();
         }
     }
 }

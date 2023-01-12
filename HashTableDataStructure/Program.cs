@@ -11,13 +11,13 @@ namespace HashTableDataStructure
         static void Main(string[] args)
         {
             Console.WriteLine("\nWelcome to Hash Table Data Structure");
-            string paragraph = "To be or not to be";
+            string paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             CountNumbOfOccurence(paragraph);
             Console.ReadLine();
         }
         public static void CountNumbOfOccurence(string paragraph)
         {
-            MyMapNode<string, int> hashTabe = new MyMapNode<string, int>(6);
+            MyMapNode<string, int> hashTabe = new MyMapNode<string, int>(19);
 
             string[] words = paragraph.Split(' ');
 
